@@ -11,7 +11,7 @@ It is to be noted all the required dataset structure from the assessment is avai
 
 For the "Memrbership Level" variable, initial data structure has no membership level however the dataset is being modified such a way that it meets the required data structure based on Subscription Status and Frequency of Purchase
 
-### Tools for E-Commerce Dataset
+### Data Mining Tools for E-Commerce Dataset
 #### 1. SAS Enterprise Miner
 SAS Enterprise Miner is an advanced analytics data mining tool that provides set of capabilities for data mining, predictive modeling, and machine learning tasks. The tool is designed to help to explore, develop, and deploy statistical models efficiently. With an interactive, graphical user interface, users can manage large volumes of data and create models using various statistical and machine learning techniques, including decsiion tree, classification, clustering and also offers features for model comparison, assessment, and ensemble model building.
 
@@ -34,4 +34,8 @@ Since there is  no other datasets will be integrated as well as Preprocessing an
 
 ### Task Execution for E-Commerce Data Mining
 ###### 1. Data Import and Preprocessing 
-The Talend Data Preparation for E-commerce can be retrieved here http://127.0.0.1:9090/#/playground/preparation?prepid=ce156939-d516-4f7e-b3e9-14dac8f870de
+#### 1.1 Data Import in Talend Data Preparation
+The Talend Data Preparation for E-commerce can be retrieved here http://127.0.0.1:9090/#/playground/preparation?prepid=ce156939-d516-4f7e-b3e9-14dac8f870de. 
+Data Import in Talend Data Preparation
+Prior importing the data in SAS E-Miner, the dataset is being imported to Talend Data Preparation in order to inspect the data and do necessary preprocessing to handle the missing values and any either anomalies or non-standardisation observed within the data. It is to be noted that, since the dataset in Kaggle is already cleaned data, hence the data is intentionally dirtied in order to showcase and demonstrate how data cleaning and preprocessing are executed for data mining.
+Based on the dataset, there is some non-stanrdardisation of the datatype for attributes Season and Size where both datatype is changed to “text
