@@ -50,7 +50,7 @@ In order to ensure that Purchase Category is standardized, and more generalisati
 ###### 4.1.3 Data Understanding in Talend Data Preparation 
 In Talend Data Preparation, we are also able to understand the data in depth which will assist in getting more insights on customer behaviour. For example, based on Purchase Amount shown in Figure 1.7, it can be summarised that the maximum purchase of the transaction is USD 100 and minimum the purchase is USD 20 whilst average purchase amount for overall records is USD 59.76. With respect to the satisfaction level, maximum Review Rating given by customer is 4.0 over 5.0 with 177 occurrences in which overall satisfaction for the purchase by customer is 3.75 over 5.0.
 
-##### 4.1.4 Data Import and Preprocessing with SAS E-Miner
+###### 4.1.4 Data Import and Preprocessing with SAS E-Miner
 To import the dataset in SAS, an ‘e-commerce’ diagram will be created to New Diagram.
 From the “Sample” tab, select “File Import” and drag the node into the workspace. Right click the File Import and rename the node as “e-commerce.
 It essential to edit the variable for the dataset to understand on customer behaviour. Hence the role of the dataset is amended as follows:
