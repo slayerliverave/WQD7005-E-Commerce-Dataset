@@ -6,12 +6,12 @@ This Case Study is being conducted to assess customer behaviour based on the sho
 
 ### Dataset Overview
 The dataset that has been used for the assessment is obtained from Kaggle titled “Customer Behaviour and Shopping Habits Dataset” (https://www.kaggle.com/datasets/zeesolver/consumer-behavior-and-shopping-habits-dataset) which consists of  3,900 purchases with 18 attributes that similar to the dataset structure proposed for the assessment as follow. 
-Required Dataset Structure	Availability in proposed dataset	Remarks
-CustomerID	Yes	
-Age	Yes	
-Gender	Yes	
+Required Dataset Structure
+CustomerID
+Age	
+Gender
 Location	Yes	
-MembershipLevel	Yes	Note: initial data structure has no membership level however the dataset is being modified such a way that it meets the required data structure based on Subscription Status and Frequency of Purchase
+MembershipLevel - initial data structure has no membership level however the dataset is being modified such a way that it meets the required data structure based on Subscription Status and Frequency of Purchase
 TotalPurchases	Yes	Purchase Amount (USD)
 TotalSpent	Yes	Purchase Amount (USD)
 FavouriteCategory	Yes	Purchase category e.g. Clothing, Footwear, Outerwear, Accessories,
