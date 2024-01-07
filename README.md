@@ -33,8 +33,8 @@ For this assessment, e-commerce dataset has been used to create new job which ti
 Since there is  no other datasets will be integrated as well as Preprocessing and Data Mining job can be done with SAS E-Miner and Talend Data Preparation, hence the assesment using Talend Data Integration will be completed up to Run the Job using tFileInputDelimited and proceeded with Talend Data Preparation and SAS E-Miner.
 
 ### Task Execution for E-Commerce Data Mining
-###### 1. Data Import and Preprocessing 
-#### 1.1 Data Import in Talend Data Preparation
+##### 1. Data Import and Preprocessing 
+###### 1.1 Data Import in Talend Data Preparation
 The Talend Data Preparation for E-commerce can be retrieved here http://127.0.0.1:9090/#/playground/preparation?prepid=ce156939-d516-4f7e-b3e9-14dac8f870de. 
 Data Import in Talend Data Preparation
 Prior importing the data in SAS E-Miner, the dataset is being imported to Talend Data Preparation in order to inspect the data and do necessary preprocessing to handle the missing values and any either anomalies or non-standardisation observed within the data. It is to be noted that, since the dataset in Kaggle is already cleaned data, hence the data is intentionally dirtied in order to showcase and demonstrate how data cleaning and preprocessing are executed for data mining.
