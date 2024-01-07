@@ -56,6 +56,48 @@ From the “Sample” tab, select “File Import” and drag the node into the w
 It essential to edit the variable for the dataset to understand on customer behaviour. Hence the role of the dataset is amended as follows:
 
 •	For Customer_ID, the Role is changed to “Rejected” and select “Yes” in Drop column as this attribute is insignificant for the analysis
+
 •	For the Subscription_Status, the Role is changed to “Target” to indicate whether customer will continue the subscription or not. Based on Figure 1.12, we can summarised that majority of the customer opt to “No” subscription with 2897 no. of records (73%) 
 
-Then, Run the “e-commerce” dataset and the summary of Results is demonstrated in Figure 1.13 below:
+Then, Run the “e-commerce” dataset and the summary of Results is demonstrated in Figure 1.13 
+
+###### 4.1.5 Data Import and Integration with Talend Data Integration
+A new project is created in Talend Data Integration which title as ‘e-commerce’. To create a New Job:
+
+•	Right-click in the Repository panel on the left under Job Designs.
+
+•	Choose Create job.
+
+•	Provide a name for the job (e.g., "ecommerce ") and a description. Click Finish.
+
+Then add a tFileInputDelimited Component:
+
+•	This component is used to read delimited files like CSV.
+
+•	From the Palette panel on the right, type "tFileInputDelimited" into the search bar.
+
+•	Drag the tFileInputDelimited component to the design workspace.
+
+Next Configure the tFileInputDelimited Component:
+
+•	Click on the tFileInputDelimited component to select it.
+
+•	In the Component panel below, set the properties:
+
+- File Name/Stream: Browse to and select your CSV file.
+- Row Separator: Set this to "\n" for new lines (most common for CSV files).
+- Field Separator: Set this to  "," depending on file CSV is delimited.
+- Header: Since the dataset obtain Header, hence, set this to 1.
+- Under the Schema section, click on the Edit schema button. Here, define the columns in the CSV file by adding columns and specifying their data types. This schema should match the structure of CSV file.
+
+Then, Run the Job to View Data. 
+Based on the Running the job, the Talend Data Integration encounter an error. This is due to the:
+
+•	There was a connection made to a socket on port 3735, which is likely for real-time debugging or statistics gathering.
+
+•	Disconnected: The connection to the socket was disconnected normally.
+
+•	Job ended: The job ecommerce ended with an exit code of 0 which indicates that the job has completed successfully without errors. If there was an error, we would typically see a non-zero exit code and an error message in the log.
+
+Several attempts on refreshing and creating new job to ensure that job can be successfully Run in the tools such as creating e-commerce2 new job as well as restarting the PC, however similar results achieved. 
+Hence for execution of Data Preprocessing using Talend Data Integration, the exercise using this tool will be excluded and assessment will be proceeded with Talend Data Preparation and SAS E-Miner.
