@@ -54,6 +54,8 @@ In Talend Data Preparation, we are also able to understand the data in depth whi
 To import the dataset in SAS, an ‘e-commerce’ diagram will be created to New Diagram.
 From the “Sample” tab, select “File Import” and drag the node into the workspace. Right click the File Import and rename the node as “e-commerce.
 It essential to edit the variable for the dataset to understand on customer behaviour. Hence the role of the dataset is amended as follows:
+
 •	For Customer_ID, the Role is changed to “Rejected” and select “Yes” in Drop column as this attribute is insignificant for the analysis
 •	For the Subscription_Status, the Role is changed to “Target” to indicate whether customer will continue the subscription or not. Based on Figure 1.12, we can summarised that majority of the customer opt to “No” subscription with 2897 no. of records (73%) 
+
 Then, Run the “e-commerce” dataset and the summary of Results is demonstrated in Figure 1.13 below:
